@@ -19,7 +19,7 @@ namespace msgBox
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string title = "Notepad";
+            string title = "Sample title 2";
             string msg = "Do you want to save changes ?";
             DialogResult x = MessageBox.Show(msg, title, MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
             if (x == DialogResult.Yes)
